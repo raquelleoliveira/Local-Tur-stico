@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+    color: #1B1B1B;
+}
+
+#container {
+    box-sizing: border-box;
+    max-width: 1120px;
+    margin: 88px auto 65px;
+}
+
+.title-page {
+    margin-bottom: 44px;
+}
+
+.headline {
+    margin-bottom: 8px;
+    color: #E1624F;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+#busan {
+    width: 1120px;
+    height: 660px;
+}
+
+img {
+    width: 1120px;
+    height: 350px;
+    width: 100%;
+    border-radius: 28px;
+    object-fit: cover;
+}
+
+#description p {
+    margin-top: 24px;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    margin: 40px 0 64px;
+    background-color: #d9d9d9;
+}
+
+h2 {
+    margin-bottom: 8px;
+    font-weight: 900;
+    font-size: 28px;
+    color: #1B1B1B;
+}
+
+#title-list h2 + p {
+    margin-bottom: 64px;
+}
+
+ol h3 li {
+    margin: 20px 30px 4px;
+}
+
+.goodfor {
+    margin: 20px auto 48px;
+    font-weight: 900;
+    color: #333333;
+}
+
+.goodfor li::marker {
+    color: #333333;
+}
+
+.goodfor li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.historia {
+    color: #0C51A7;
+}
+
+#casais {
+    color: #591B98;
+}
+
+#familias {
+    color: #E5245E;
+}
+
+#orcamento {
+    color: #E95E10;
+}
+
+footer {
+    color: #333333;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    max-width: 14px;
+    max-height: 12px;
+    width: 100%;
+    vertical-align: middle;
+}
